@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+#url{
+
+    padding: 8px;
+    margin: 20px;
+    width: 500px;
+}
+#submit-url-button{
+
+    padding: 8px;
+}
+.main-button{
+
+    padding: 20px;
+    margin: 20px;
+    margin-right: 0px;
+    background-color: #ddd;
+    border: 2px solid black;
+    font-weight: bold;
+    font-size: 16px;
+    transition: 0.1s;
+}
+
+.main-button:hover{
+
+    background-color: #bebebe;
+}
+
+#add-row-button{
+
+    display: none;
+}
+
+#add-test-button{
+
+    display: none;
+}
+
+table{
+    
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+} 
+tr{
+
+    background: linear-gradient(180deg, #d3d3d3, #dcdcdc);
+}
+td, th{
+
+    border: 1px solid #b6b6b6;
+    text-align: left;
+    padding: 15px;
+}
+th{
+    
+    background: #dddddd;
+    border: 1px solid #000;
+}
+th:nth-child(1),td:nth-child(1){
+
+    width: 10%;
+}
+th:nth-child(2),td:nth-child(2){
+
+    width: 40%;
+}
+th:nth-last-child(2),td:last-child(2){
+
+    width: 40%;
+}
+th:last-child,td:last-child{
+
+    width: 10%;
+}
+
+img{
+
+    max-width: 300px;
+}
+
+#action-select{
+
+    padding: 8px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.action-value{
+
+    padding: 8px;
+    height: 40px;
+}
+
+#delete-button{
+
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+    color: red;
+}
